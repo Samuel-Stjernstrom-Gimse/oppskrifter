@@ -1,0 +1,58 @@
+:root {
+    --main-color: #3f5d3f;
+    --text-color: #cecece;
+    --dark-color: #284328;
+    --darker-color: #200020;
+    --light-color: #36234d;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.fremgang,
+.h1-title,
+.title,
+.ingredienser {
+    color: var(--text-color);
+    font-family: Arial, serif;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link-p-h {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    background-color: var(--dark-color);
+    border-radius: 30px;
+    padding: 5%;
+    margin-top: 10%;
+    justify-content: space-around;
+
+}
+
+.img-food {
+    min-height: 250px;
+    height: 300px;
+    border-radius: 20px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.fremgang,
+.ingredienser {
+    font-size: x-large;
+    text-align: left;
+}
+
+.title {
+    font-size: xxx-large;
+}
