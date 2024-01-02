@@ -41,7 +41,7 @@ main {
     background-image: url("img/paper.jpg");
     border-radius: 3px;
     padding: 5%;
-    margin-top: 20vh;
+    margin-top: 10vh;
     justify-content: space-around;
     box-shadow: 20px 20px 40px var(--darker-color);
     max-width: 700px;
