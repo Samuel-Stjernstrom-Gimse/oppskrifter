@@ -1,9 +1,9 @@
 :root {
     --main-color: #3f5d3f;
-    --text-color: #cecece;
+    --text-color: #190919;
     --dark-color: #284328;
-    --darker-color: #142014;
-    --light-color: #36234d;
+    --darker-color: #1c0808;
+    --light-color: #b7e1f3;
 }
 
 body {
@@ -15,11 +15,10 @@ body {
     z-index: -10;
 }
 body {
-    background-color: var(--main-color);
+    background-color: #01333c;
 }
 
 .fremgang,
-.h1-title,
 .title,
 .ingredienser {
     color: var(--text-color);
@@ -39,12 +38,14 @@ main {
     margin-right: auto;
     align-content: center;
     text-align: center;
-    background-color: var(--dark-color);
-    border-radius: 30px;
+    background-image: url("img/paper.jpg");
+    border-radius: 3px;
     padding: 5%;
-    margin-top: 10%;
+    margin-top: 20vh;
     justify-content: space-around;
-    box-shadow: 10px 10px 20px var(--darker-color);
+    box-shadow: 20px 20px 40px var(--darker-color);
+    max-width: 700px;
+
 
 }
 
@@ -54,6 +55,7 @@ main {
     border-radius: 20px;
     align-self: center;
     margin-bottom: 40px;
+    border: 3px solid var(--darker-color);
 }
 
 .fremgang,
@@ -72,52 +74,56 @@ li {
 
 .header {
     display: flex;
-    position: relative;
+    justify-content: center;
     position: fixed;
     top: 0;
     height: 10%;
-    background-color: var(--darker-color);
-    width: 110vw;
-    color: var(--text-color);
-    flex-direction: row;
-    font-family: Arial;
+    background-image: url("img/Holz Dark Seamless_0.jpg");
+    width: 100vw;
     z-index: 4;
+    box-shadow: 0 10px 20px black;
+    border: 4px solid var(--darker-color);
 }
 
-.i-hidden {
-
-}
-
-.i-menu {
-    background-color: var(--darker-color);
-    padding: 2%;
-    color: var(--text-color);
-    font-family: Candara;
-    height: 60vh;
-    position: absolute;
-    border-radius: 0 0 30px 30px;
-    box-shadow: 10px 10px 20px var(--darker-color);
-}
-
-li {
-    list-style: none;
-
-}
 
 a {
     text-decoration: none;
     color: var(--text-color);
-    font-size: x-large;
     padding: 12px;
 }
-
+.header-innhold,
 .h1-title {
-    position: absolute;
-    text-align: right;
-    width: 90vw;
+    font-size: xx-large;
+    color: #bca184;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
 }
 
+#innhold-t {
+    color: var(--text-color);
+    font-size: xxx-large;
+}
 .menu-item{
     font-size: xx-large;
 
+}
+
+.i-menu {
+    list-style: none;
+    margin: 0;
+    font-size: x-large;
+}
+
+.hero {
+    margin-top: 15vh;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-innhold {
+    margin-right: 20px;
 }
