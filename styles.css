@@ -1,7 +1,7 @@
 :root {
     --main-color: #3f5d3f;
     --text-color: #190919;
-    --dark-color: #284328;
+    --dark-color: rgba(0, 21, 128, 0.24);
     --darker-color: #1c0808;
     --light-color: #b7e1f3;
 }
@@ -60,8 +60,9 @@ main {
 
 .fremgang,
 .ingredienser {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: left;
+    font-weight: bold;
 }
 
 .title {
@@ -75,9 +76,9 @@ li {
 .header {
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     top: 0;
-    height: 10%;
+    height: 5%;
     background-image: url("img/Holz Dark Seamless_0.jpg");
     width: 100vw;
     z-index: 4;
@@ -126,4 +127,19 @@ html {
 
 .header-innhold {
     margin-right: 20px;
+}
+
+.innhold-pil {
+    position: fixed;
+    bottom: 0.5%;
+    right: 0.5%;
+    border: 3px solid #bca184;
+    background-color: #01333c;
+    border-radius: 10px;
+    font-size: xx-large;
+    color: #bca184;
+    z-index: 1000;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
 }
